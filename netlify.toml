@@ -1,5 +1,6 @@
 [build.environment]
 base=".nuxt"
+publish=".nuxt/dist/client"
 command="CI= npm run build"
 [[redirects]]
   from = "/base/*"
@@ -8,5 +9,6 @@ command="CI= npm run build"
 
 [[redirects]]
   from = "/branch/*"
-  to = "http://143.198.103.113:8086/main/:splat"
+  to = "http://143.198.03.113:8086/main/:splat"
   status = 200
+1

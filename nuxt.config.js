@@ -3,6 +3,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/panel/' : '/';
 const fs = require('fs');
 const path = require('path');
 export default {
+  
   // router: {
   //   middleware: {
   //     '/profile': 'auth',

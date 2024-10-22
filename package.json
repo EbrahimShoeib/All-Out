@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build --output public",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "heroku-postbuild": "npm run build",
@@ -46,7 +46,7 @@
     "google-maps": "^3.2.1",
     "html2canvas": "^1.4.1",
     "jquery": "^3.7.0",
-    "nuxt": "^2.13.3",
+    "nuxt": "^2.18.1",
     "nuxt-leaflet": "^0.0.27",
     "nuxt-socket-io": "^2.0.3",
     "or": "^0.2.0",
