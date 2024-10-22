@@ -1,6 +1,5 @@
 [build.environment]
 base=".nuxt"
-publish=".nuxt/dist/client"
 command="CI= npm run build"
 [[redirects]]
   from = "/base/*"
